@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "./tailwind.scss";
+@import "./custom.scss";
+@import "./custom/antd";
+@import "./key-person/keyPerson";
+@import "./card/card.scss";
+@import "./pagination/pagination";
+@import "./auth/register";
+@import "./auth/login";
+@import "./book-List/_bookList";
+@import "./book-details/bookDetails";
+@import "./book-borrow/_bookBorrow";
+@import "./faq/faq.scss";
+@import "./gallery/gallery-card.scss";
+@import "./events/events";
+@import "./swiper-slider/swiper";
+
+@import "./header/header-top.scss";
+@import "./my-Request/myRequest.scss";
+
+@import "./header/header-top";
+
+@import "./library/library";
+
+@import "./my-orders/my-orders.scss";
+@import "./my-Request/libraryCardRequest";
+
+@import "./my-orders/my-orders";
+@import "./my-profile/my-profile";
+
+@import "./membership/membership";
+@import "./change-membership/change-membership";
+
+@import "./membership//membership";
+@import "./newspaper/_newspaper";
+@import "./advance-and-global-search/_advance-and-global-search.scss";
+@import "./publisher-panel/publisher-panel";
+
+@import "./newspaper/_newspaper";
+@import "./advance-and-global-search/_advance-and-global-search.scss";
+@import "./publisher-panel/publisher-panel";

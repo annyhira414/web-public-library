@@ -1,0 +1,47 @@
+.common-breadcrumb {
+  .ant-breadcrumb-separator {
+    margin: 0 8px;
+    color: white;
+    margin-top: 3px;
+  }
+
+  .ant-breadcrumb-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .ant-breadcrumb a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+.secondary-breadcrumb {
+  .ant-breadcrumb-separator {
+    margin: 0 8px;
+    color: #606060;
+    margin-top: 12px;
+  }
+
+  .ant-breadcrumb-link {
+    color: #606060;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .ant-breadcrumb a {
+    color: #606060;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  // .ant-breadcrumb li:last-child a {
+  //   color: white;
+  // }
+
+  .ant-breadcrumb {
+    .ant-breadcrumb-link {
+      li:last-child a {
+        color: rgb(255 255 255 / 85%) !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,185 @@
+/** @format */
+
+.ant-select-single.ant-select-lg .ant-select-selector {
+  border-radius: 4px !important;
+  font-size: 14px;
+}
+
+.bookRating {
+  .ant-select-single.ant-select-lg .ant-select-selector {
+    //border-radius: 8px !important;
+    font-size: 16px;
+  }
+}
+
+.ant-picker {
+  border-radius: 4px !important;
+}
+
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+  margin-inline-start: 0px;
+}
+// .popNotification {
+//   .ant-popover {
+//     width: 450px;
+//   }
+// }
+// .ant-popover {
+//   width: 250px;
+// }
+.ant-popover .ant-popover-inner {
+  padding: 4px;
+}
+
+// header-top section custom
+
+.ant-input-search .ant-input-search-button {
+  height: 50px;
+  background-color: #006a4e !important;
+}
+.custom-headerTop-input {
+  .ant-input {
+    height: 50px !important;
+    border-radius: 0px;
+  }
+}
+
+.select-custom-ant-style {
+  .ant-select-selector {
+    height: 50px !important;
+    padding-top: 5px !important;
+  }
+  .ant-select-single.ant-select-lg {
+    .ant-select-selector {
+      border-radius: 3px 0px 0px 3px !important;
+      font-size: 14px;
+    }
+    .ant-select-arrow {
+      color: #1f1f1f;
+      padding-bottom: 7px;
+    }
+  }
+}
+.language-style {
+  .ant-select-selector {
+    height: 34px !important;
+    color: White;
+    background-color: #002a1f !important;
+  }
+  .ant-select-arrow {
+    color: white;
+  }
+}
+.ant-menu-horizontal {
+  border-bottom: none !important;
+}
+.custom-header-menus {
+  .ant-menu-item::after {
+    inset-inline: 0px !important;
+  }
+  .ant-menu-item:hover {
+    background-color: #c2dbd5;
+  }
+  .ant-menu-item-selected {
+    color: #006a4e !important;
+    background-color: transparent !important;
+    font-weight: 600;
+  }
+  .ant-menu-item-selected::after {
+    border-bottom-color: #006a4e !important;
+    inset-inline: 0px !important;
+  }
+  .ant-menu-submenu-selected > .ant-menu-submenu-title {
+    color: #006a4e !important;
+    font-weight: 600;
+  }
+  .ant-menu-submenu-selected::after {
+    inset-inline: 0px !important;
+    border-bottom-color: #006a4e !important;
+  }
+  .ant-menu-submenu:hover {
+    background-color: #c2dbd5;
+  }
+  .ant-menu-submenu:hover::after {
+    inset-inline: 0px !important;
+  }
+  .ant-menu-submenu::after {
+    inset-inline: 0px !important;
+  }
+}
+.ant-menu .ant-menu-item-group .ant-menu-item-group-list {
+  margin-left: -20px !important;
+  width: 250px;
+}
+.ant-divider-horizontal {
+  min-width: 10%;
+}
+
+.custom-checkbox {
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #006a4e;
+    border-color: #006a4e;
+  }
+}
+
+// menu drawer section custom
+.custom-drawer {
+  :where(.css-dev-only-do-not-override-eu1hc).ant-menu-light:not(
+      .ant-menu-horizontal
+    )
+    .ant-menu-item:not(.ant-menu-item-selected):hover,
+  :where(.css-dev-only-do-not-override-eu1hc).ant-menu-light
+    > .ant-menu:not(.ant-menu-horizontal)
+    .ant-menu-item:not(.ant-menu-item-selected):hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  :where(.css-dev-only-do-not-override-eu1hc).ant-menu-light
+    .ant-menu-submenu-title:hover:not(.ant-menu-item-selected):not(
+      .ant-menu-submenu-selected
+    ),
+  :where(.css-dev-only-do-not-override-eu1hc).ant-menu-light
+    > .ant-menu
+    .ant-menu-submenu-title:hover:not(.ant-menu-item-selected):not(
+      .ant-menu-submenu-selected
+    ) {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  .ant-drawer-wrapper-body {
+    background-color: #002a1f !important;
+  }
+  .ant-menu {
+    background-color: #002a1f !important;
+  }
+  .ant-drawer-header {
+    display: none;
+  }
+  .ant-menu-light.ant-menu-root.ant-menu-inline {
+    border-inline-end: none;
+  }
+  .ant-menu-sub {
+    margin-left: 20px;
+  }
+}
+
+.check-availability {
+  .ant-modal-header {
+    display: none;
+  }
+  .ant-modal-footer {
+    display: none;
+  }
+  .ant-modal-content {
+    background-color: #ffffff;
+  }
+}
+// .advanced-search-select .ant-select .ant-select-arrow{
+// display: none;
+// }
+.ant-pagination .ant-pagination-item-active a {
+    color: white !important;
+    background-color: #002A1F !important;
+    // border-color: rgb(185, 34, 34) !important;
+    border-radius: 4px;
+}

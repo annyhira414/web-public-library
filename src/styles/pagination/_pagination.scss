@@ -1,0 +1,14 @@
+/** @format */
+.ant-pagination .ant-pagination-item-active a {
+ color: white !important;
+ background-color: green ;
+ border-color: rgb(185, 34, 34) !important;
+ border-radius: 4px;
+
+}
+.ant-pagination .ant-pagination-item-active:hover a {
+    //border-color: rgb(185, 34, 34) !important;
+border-radius: 4px;
+}  
+
+

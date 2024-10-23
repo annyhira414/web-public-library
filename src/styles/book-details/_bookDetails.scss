@@ -1,0 +1,45 @@
+.reviewContainer {
+  .ant-row {
+    display: flex;
+    flex-flow: column wrap;
+    min-width: 0;
+  }
+}
+.readSomePagesButton {
+  .ant-btn-default:not(:disabled):hover {
+    color: white;
+    border-color: #2e856e;
+  }
+}
+.bookButton {
+  .ant-btn-default:not(:disabled):hover {
+    // color: white;
+    border-color: #2e856e;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+}
+.borrowBookButton {
+  .ant-btn-default:not(:disabled):hover {
+    color: white;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.75); // border-color: #2e856e;
+  }
+}
+.cancleButton {
+  .ant-btn-default:not(:disabled):hover {
+    border-color: rgb(255, 65, 65);
+    color: red;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.75); // border-color: #2e856e;
+  }
+}
+.writeReviewButton {
+  .ant-btn-default:not(:disabled):hover {
+    color: white;
+    border-color: #2e856e;
+  }
+}

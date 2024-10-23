@@ -1,0 +1,105 @@
+.gender-selection {
+  .ant-space-vertical {
+    flex-direction: row !important;
+  }
+}
+.present-address-details {
+  .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(
+      .ant-pagination-size-changer
+    ):hover
+    .ant-select-selector {
+    border-color: gray !important;
+  }
+}
+.permanent-address-details {
+  .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(
+      .ant-pagination-size-changer
+    ):hover
+    .ant-select-selector {
+    border-color: gray !important;
+  }
+}
+.membership-type {
+  .radio-bg {
+    background-color: #f0f0f0 !important;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 8px;
+  }
+  .ant-radio-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .ant-radio-wrapper {
+    .ant-radio {
+      display: flex !important;
+      align-items: center !important;
+      padding-top: 0px !important;
+    }
+  }
+  .ant-radio + span {
+    width: 100% !important;
+  }
+}
+.next-btn {
+  .ant-btn-default:not(:disabled):hover {
+    color: #fff !important;
+    border-color: #006a4e !important;
+  }
+}
+.payment-method {
+  .payment-radio {
+    border: 1px solid #f0f0f0 !important;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    padding: 8px;
+  }
+}
+.library-accordian {
+  .ant-collapse {
+    border: 0 !important;
+  }
+  .ant-collapse {
+    .ant-collapse-item {
+      border: 0 !important;
+    }
+  }
+  .ant-collapse-header {
+    background-color: #ffffff !important;
+    border-radius: 0 !important;
+  }
+  .ant-collapse {
+    .ant-collapse-item {
+      .ant-collapse-header {
+        flex-direction: row-reverse !important;
+      }
+    }
+  }
+}
+.membership-submit-btn {
+  .ant-btn-default:not(:disabled):hover {
+    color: #fff !important;
+    border-color: #216a4f !important;
+  }
+}
+.payment-btn,
+.payment-proceed {
+  .ant-btn-default:not(:disabled):hover {
+    color: #fff !important;
+    border: none !important;
+  }
+}
+.ant-picker-today-btn {
+  display: none !important;
+}
+.select-diviosion,
+.select-thana {
+  p {
+    margin-top: -12px !important;
+    margin-bottom: 8px !important;
+  }
+}
+// .membership-menu{
+//   background-color: red !important;
+// }

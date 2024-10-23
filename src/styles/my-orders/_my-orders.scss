@@ -1,0 +1,33 @@
+.order-body-footer {
+  .order-body-cancel {
+    .ant-btn-default:not(:disabled):hover {
+      color: red !important;
+      border-color: red !important;
+    }
+  }
+  .order-view-details {
+    .ant-btn-default:not(:disabled):hover {
+      color: #216a4f !important;
+      border-color: #216a4f !important;
+    }
+  }
+}
+.current-view-details {
+  .ant-btn-default:not(:disabled):hover {
+    color: #216a4f !important;
+    border-color: #216a4f !important;
+  }
+}
+.return-book-footer {
+  .extent-btn,
+  .lost-btn {
+    .ant-btn-default:not(:disabled):hover {
+      border-color: #216a4f !important;
+    }
+  }
+  .active {
+    background-color: #216a4f !important;
+    color: #fff !important;
+    border-color: #216a4f !important;
+  }
+}

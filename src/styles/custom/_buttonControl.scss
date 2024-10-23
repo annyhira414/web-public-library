@@ -1,0 +1,5 @@
+@layer components{
+    .btn-primary{
+        @apply shadow-none rounded  text-library-white text-xl bg-library-primary hover:text-green-200"
+    }
+}

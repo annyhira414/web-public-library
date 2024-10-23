@@ -1,0 +1,28 @@
+.register-field {
+  .ant-select {
+    .ant-select-arrow {
+      color: #006a4e !important;
+    }
+  }
+  .ant-picker {
+    .ant-picker-suffix {
+      color: #006a4e !important;
+    }
+  }
+  .ant-input {
+    border-radius: 6px !important;
+  }
+  .ant-picker {
+    border-radius: 6px !important;
+  }
+  .ant-select-single.ant-select-lg .ant-select-selector {
+    border-radius: 6px !important;
+    border: 1px solid rgb(156 163 175);
+  }
+  .custom-placeholder {
+    ::placeholder {
+      color: #434343 !important;
+      font-size: 14px;
+    }
+  }
+}

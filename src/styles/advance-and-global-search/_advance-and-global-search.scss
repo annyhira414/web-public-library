@@ -1,0 +1,23 @@
+.global-search-field {
+  .ant-select-single.ant-select-lg .ant-select-selector {
+    border-radius: 0 4px 4px 0 !important;
+    border: none !important;
+    width: 100% !important;
+    height: 48px;
+    box-shadow: none !important;
+  }
+  .ant-select-single.ant-select-lg .ant-select-selector:hover {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .ant-select-single.ant-select-lg
+    .ant-select-selector
+    .ant-select-selection-search {
+    top: 4px !important;
+  }
+}
+.global-search-field2 {
+  .ant-select-single.ant-select-lg .ant-select-selector {
+    border-radius: 0px !important;
+  }
+}

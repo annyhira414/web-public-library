@@ -1,0 +1,31 @@
+// input:checked + label {
+// 	border-color:#006A4E;
+// 	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+// }
+
+.radio-group-section {
+  .ant-radio-wrapper .ant-radio {
+    padding-top: 4px;
+    height: 100%;
+  }
+}
+
+.radio-group-section-with-center {
+  .ant-radio-wrapper .ant-radio {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: Poppins;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+  }
+}

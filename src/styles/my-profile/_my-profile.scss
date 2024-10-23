@@ -1,0 +1,131 @@
+.delete-user-modal {
+  .delete-modal-icon {
+    .anticon-delete {
+      font-size: 32px;
+      padding: 30px;
+      border: 6px solid #ffdfdf;
+      border-radius: 50%;
+      background-color: #ffbfbf !important;
+      text-align: center;
+      color: red !important;
+    }
+  }
+}
+.update-name {
+  input:focus {
+    outline: 0;
+  }
+}
+.update-email {
+  .ant-input:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+    border-inline-end-width: 0 !important;
+    outline: 0 !important;
+  }
+  p {
+    padding: 0 10px 6px !important;
+  }
+}
+.update-dob {
+  .ant-picker:hover,
+  .ant-picker-focused {
+    border: none !important;
+    border-color: none !important;
+    box-shadow: none !important;
+    border-inline-end-width: 0 !important;
+    outline: 0 !important;
+  }
+
+  p {
+    padding: 0 10px 6px !important;
+  }
+}
+
+.update-gender {
+  select {
+    background-color: transparent;
+    padding: 10px;
+  }
+  :focus {
+    outline: 0;
+  }
+  .ant-picker {
+    .ant-picker-input {
+      input:focus {
+        border: none !important;
+        box-shadow: none !important;
+        border-inline-end-width: 1px;
+        outline: 0;
+      }
+    }
+    .ant-picker {
+      .ant-picker-input {
+        input-focused {
+          border: none !important;
+          box-shadow: none !important;
+          border-inline-end-width: 1px;
+          outline: 0;
+        }
+      }
+    }
+  }
+}
+.current-password-input {
+  input:focus {
+    border: none !important;
+    box-shadow: none !important;
+    border-inline-end-width: 1px;
+    outline: 0;
+  }
+}
+.add-address-btn {
+  .ant-btn-default:not(:disabled):hover {
+    color: #216a4f !important;
+    border: none !important;
+  }
+}
+.add-address-submit {
+  .ant-btn-default:not(:disabled):hover {
+    color: red !important;
+  }
+  .ant-btn-default {
+    background-color: #ffdbdb !important;
+    border-color: #ffdbdb !important;
+    box-shadow: none !important;
+  }
+}
+.modal-button {
+  .ant-btn-default:not(:disabled):hover {
+    color: #216a4f !important;
+    border: none !important;
+  }
+  .delete-user-button {
+    .ant-btn-default:not(:disabled):hover {
+      color: #001811 !important;
+      border: none !important;
+    }
+  }
+}
+.pro-pic-modal-btn {
+  .update-image:hover {
+    color: #216a4f !important;
+    border: 1px solid #216a4f !important;
+    background-color: #fff !important;
+  }
+  .cancel:hover {
+    color: red !important;
+    border: 1px solid red !important;
+    background-color: #fff !important;
+  }
+}
+.profilepic {
+  height: 80px;
+  width: 80px;
+}
+
+.ant-popover {
+  .ant-popover-inner-content {
+    padding: 10px !important;
+  }
+}
